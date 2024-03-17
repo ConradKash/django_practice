@@ -10,6 +10,15 @@
         <h2>About Secureflow</h2>
         <p>Secureflow is a revolutionary blockchain app that ensures secure and transparent transactions. With our cutting-edge technology, you can trust that your data and transactions are protected.</p>
     </section>
+    <section>
+    {% for category in categories %}
+        
+    <div>
+        {{ category.Name }}
+    </div>
+
+    {% endfor %}
+    </section>
     
     <section>
         <h2>Features</h2>
